@@ -1,0 +1,97 @@
+/* App.css */
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 20px;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.panel {
+  width: 45%;
+  background-color: #2b2b2b;
+  color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.status {
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.connected {
+  background-color: #4caf50;
+}
+
+.disconnected {
+  background-color: #f44336;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.send-button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.send-button:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: #f44336;
+  margin-top: 10px;
+}
+
+.message-panel {
+  width: 50%;
+  background-color: #2b2b2b;
+  color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.subtitle {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.message-content {
+  white-space: pre-wrap; /* Preserve line breaks */
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  min-height: 100px;
+}

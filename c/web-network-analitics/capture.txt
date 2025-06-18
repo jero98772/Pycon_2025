@@ -1,0 +1,9 @@
+Packet 1: 0.0.0.0 -> 0.0.0.0, Src MAC: EC:A9:40:7E:8E:CA, Dst MAC: 33:33:00:00:00:01, Protocol: 128 238.169.64.255
+Packet 2: 142.202.192.168 -> 142.202.192.168, Src MAC: EC:A9:40:7E:8E:CA, Dst MAC: FF:FF:FF:FF:FF:FF, Protocol: 169 1.254.0.0
+Packet 3: 192.168.1.19 -> 192.168.1.19, Src MAC: 34:02:86:18:94:85, Dst MAC: EC:A9:40:7E:8E:CA, Protocol: 17 dns.google
+Packet 4: 0.0.0.0 -> 0.0.0.0, Src MAC: 34:02:86:18:94:85, Dst MAC: 33:33:00:00:00:16, Protocol: 128 130.231.218.71
+Packet 5: 8.8.8.8 -> 8.8.8.8, Src MAC: EC:A9:40:7E:8E:CA, Dst MAC: 34:02:86:18:94:85, Protocol: 17 dasjero98772-lial
+Packet 6: 192.168.1.19 -> 192.168.1.19, Src MAC: 34:02:86:18:94:85, Dst MAC: EC:A9:40:7E:8E:CA, Protocol: 17 dns.google
+Packet 7: 142.202.192.168 -> 142.202.192.168, Src MAC: EC:A9:40:7E:8E:CA, Dst MAC: FF:FF:FF:FF:FF:FF, Protocol: 169 1.254.0.0
+Packet 8: 8.8.8.8 -> 8.8.8.8, Src MAC: EC:A9:40:7E:8E:CA, Dst MAC: 34:02:86:18:94:85, Protocol: 17 dasjero98772-lial
+Packet 9: 192.168.1.19 -> 192.168.1.19, Src MAC: 34:02:86:18:94:85, Dst MAC: EC:A9:40:7E:8E:CA, Protocol: 17 dns.google

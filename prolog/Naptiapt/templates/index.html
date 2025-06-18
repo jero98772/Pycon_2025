@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic Theorem Prover</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="mb-4">🔬 Automatic Theorem Prover</h1>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Input</h5>
+                    </div>
+                    <div class="card-body">
+                        <form id="theoremForm">
+                            <div class="mb-3">
+                                <label for="axioms" class="form-label">Axioms (one per line)</label>
+                                <textarea class="form-control" id="axioms" rows="4" 
+                                    placeholder="human(socrates)&#10;mortal(X) :- human(X)"></textarea>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="rules" class="form-label">Inference Rules</label>
+                                <div id="rulesContainer">
+                                    <div class="rule-input mb-2">
+                                        <div class="row">
+                                            <div class="col-5">
+                                                <input type="text" class="form-control premise" placeholder="Premise">
+                                            </div>
+                                            <div class="col-2 text-center">→</div>
+                                            <div class="col-5">
+                                                <input type="text" class="form-control conclusion" placeholder="Conclusion">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-sm btn-outline-primary" onclick="addRule()">Add Rule</button>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="facts" class="form-label">Facts (one per line)</label>
+                                <textarea class="form-control" id="facts" rows="3" 
+                                    placeholder="human(socrates)&#10;animal(dog)"></textarea>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="theorem" class="form-label">Theorem to Prove</label>
+                                <input type="text" class="form-control" id="theorem" placeholder="mortal(socrates)">
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Prove Theorem</button>
+                            <button type="button" class="btn btn-secondary" onclick="loadExample()">Load Example</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Proof Result</h5>
+                    </div>
+                    <div class="card-body">
+                        <div id="result"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>

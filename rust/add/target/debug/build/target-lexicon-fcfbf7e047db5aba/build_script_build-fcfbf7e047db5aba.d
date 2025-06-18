@@ -1,0 +1,8 @@
+/home/dasjero98772/Desktop/arreBatEro/pycon/rust/pyo3_example/target/debug/build/target-lexicon-fcfbf7e047db5aba/build_script_build-fcfbf7e047db5aba: /home/dasjero98772/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/build.rs /home/dasjero98772/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/data_model.rs /home/dasjero98772/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/triple.rs /home/dasjero98772/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/targets.rs
+
+/home/dasjero98772/Desktop/arreBatEro/pycon/rust/pyo3_example/target/debug/build/target-lexicon-fcfbf7e047db5aba/build_script_build-fcfbf7e047db5aba.d: /home/dasjero98772/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/build.rs /home/dasjero98772/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/data_model.rs /home/dasjero98772/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/triple.rs /home/dasjero98772/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/targets.rs
+
+/home/dasjero98772/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/build.rs:
+/home/dasjero98772/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/data_model.rs:
+/home/dasjero98772/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/triple.rs:
+/home/dasjero98772/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/targets.rs:
