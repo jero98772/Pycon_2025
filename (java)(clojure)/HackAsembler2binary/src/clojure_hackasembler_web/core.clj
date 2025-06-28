@@ -183,6 +183,7 @@
         ""
         "If output file is not specified, output will be printed to stdout"]
        (str/join \newline)))
+
 (comment
 (defn demo-mode []
   (let [test-code "// Simple program to add two numbers

@@ -50,8 +50,13 @@ def levenshtein_distance(str1, str2):
     return matrix[len1][len2]
 
 
-time_function(bioalgorithms.levenshtein_distance,"kitten","sitting")
-time_function(levenshtein_distance,"kitten","sitting")
+#time_function(bioalgorithms.levenshtein_distance,"kitten","sitting")
+#time_function(levenshtein_distance,"kitten","sitting")
+
+print("Rust Function:")
+time_function(bioalgorithms.levenshtein_distance,"ACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGT","ACGTACGTACGTACGTACGTACGTACGTACGTACGTACCTACGTACGTACGTACGT")
+print("Python Function:")
+time_function(levenshtein_distance,"ACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGT","ACGTACGTACGTACGTACGTACGTACGTACGTACGTACCTACGTACGTACGTACGT")
 
 """
 print(bioalgorithms.levenshtein_distance("kitten","sitting"))

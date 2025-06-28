@@ -137,7 +137,7 @@ async def index(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
 
 @app.post("/prove")
-async def prove_theorem(request: Request):
+async def prove_theorem_web(request: Request):
     data = await request.json()
     result = prolog_interface.prove_theorem(
         data.get("axioms", []),
