@@ -8,7 +8,7 @@ Unlock the *true power* of Python by bridging it with lower-level and specialize
 
 ## 🧠 What You’ll Learn
 
-In this talk, we’ll explore the **why** and **how** of integrating Python with:
+In this talk, we’ll explored the **why** and **how** of integrating Python with:
 
 * 🦀 **Rust** (for safety and speed)
 * 💻 **C/C++** (for low-level efficiency)
@@ -82,15 +82,15 @@ Use functional programming (Clojure) to build tools like assemblers and converte
 
 * **🦀 PyO3** (Rust + Python)
 * **🔗 pybind11** (C++ + Python)
-* **☕ JPype** (Java + Python)
-* **📦 ctypes** and **CFFI** (C + Python)
+* **☕ JPype** (Clojure,Java + Python)
+* **📦 ctypes**  (C + Python)
 * **🧪 subprocess / socket / REST** (cross-language via networking)
 
 ---
 
 ## 💡 Takeaways
 
-By the end of the talk, you’ll know:
+By the end we talked about:
 
 * When and *why* to combine Python with other languages.
 * Which tools are best for integrating each pair.
