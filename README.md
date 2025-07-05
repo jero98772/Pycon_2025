@@ -4,6 +4,8 @@
 
 Unlock the *true power* of Python by bridging it with lower-level and specialized languages to achieve blazing speed, system-level control, and expressive simplicity — all in the same project.
 
+[link](https://1drv.ms/p/c/f24fdf9cd78f768a/ERRui_FZbuhKt9SoFE_BSOUBOI7ElzfPbGQIPvfMCRB7Qg?e=B7W0v5)
+
 ---
 
 ## 🧠 What You’ll Learn
@@ -96,3 +98,6 @@ By the end we talked about:
 * Which tools are best for integrating each pair.
 * How to design modular systems that play to each language’s strengths.
 * How real-world hybrid-language applications are built.
+
+
+
